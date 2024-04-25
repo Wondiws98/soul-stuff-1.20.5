@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    "II",
+    "II"
+  ],
+  "result": {
+    "count": 4,
+    "id": "soul_stuff:soul_stone"
+  }
+}

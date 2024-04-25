@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "soul_stuff:dark_soul_stone"
+  },
+  "result": {
+    "count": 1,
+    "id": "soul_stuff:polished_dark_soul_stone"
+  }
+}

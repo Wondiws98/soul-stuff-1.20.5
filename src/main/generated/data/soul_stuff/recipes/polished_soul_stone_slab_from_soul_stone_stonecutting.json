@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "soul_stuff:soul_stone"
+  },
+  "result": {
+    "count": 2,
+    "id": "soul_stuff:polished_soul_stone_slab"
+  }
+}

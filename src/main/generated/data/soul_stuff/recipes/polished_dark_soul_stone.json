@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "I": {
+      "item": "soul_stuff:dark_soul_stone_bricks"
+    }
+  },
+  "pattern": [
+    "II",
+    "II"
+  ],
+  "result": {
+    "count": 4,
+    "id": "soul_stuff:polished_dark_soul_stone"
+  }
+}

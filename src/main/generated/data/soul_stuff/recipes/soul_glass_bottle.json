@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "G": {
+      "item": "soul_stuff:soul_glass"
+    }
+  },
+  "pattern": [
+    "G G",
+    " G "
+  ],
+  "result": {
+    "count": 3,
+    "id": "minecraft:glass_bottle"
+  }
+}

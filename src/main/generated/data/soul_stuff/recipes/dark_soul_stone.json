@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "building",
+  "key": {
+    "C": {
+      "tag": "minecraft:coals"
+    },
+    "S": {
+      "item": "minecraft:soul_sand"
+    }
+  },
+  "pattern": [
+    "CS",
+    "SC"
+  ],
+  "result": {
+    "count": 4,
+    "id": "soul_stuff:dark_soul_stone"
+  }
+}

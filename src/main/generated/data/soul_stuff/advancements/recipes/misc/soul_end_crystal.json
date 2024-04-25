@@ -1,0 +1,54 @@
+{
+  "parent": "minecraft:recipes/root",
+  "criteria": {
+    "has_ender_eye": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ender_eye"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_ghast_tear": {
+      "conditions": {
+        "items": [
+          {
+            "items": "minecraft:ghast_tear"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_soul_glass": {
+      "conditions": {
+        "items": [
+          {
+            "items": "soul_stuff:soul_glass"
+          }
+        ]
+      },
+      "trigger": "minecraft:inventory_changed"
+    },
+    "has_the_recipe": {
+      "conditions": {
+        "recipe": "minecraft:soul_end_crystal"
+      },
+      "trigger": "minecraft:recipe_unlocked"
+    }
+  },
+  "requirements": [
+    [
+      "has_the_recipe",
+      "has_soul_glass",
+      "has_ender_eye",
+      "has_ghast_tear"
+    ]
+  ],
+  "rewards": {
+    "recipes": [
+      "minecraft:soul_end_crystal"
+    ]
+  }
+}

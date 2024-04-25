@@ -1,0 +1,10 @@
+// 1.20.5	2024-04-25T12:07:00.9839941	Soul Stuff/Tags for minecraft:block
+cd6fd29ab1e5db61cd7c0967565702543f022e57 data\minecraft\tags\blocks\walls.json
+47eb35f06ab78cbeb83358f36257345e46098028 data\minecraft\tags\blocks\soul_fire_base_blocks.json
+d9acef2f13c942c04ca6877f9fbe52a5c3ed483c data\minecraft\tags\blocks\mineable\pickaxe.json
+8eb0e76f7760b253bacc6663eb50b17f2bff3619 data\minecraft\tags\blocks\buttons.json
+169b1fcbb701d32fa3d0c79855b278d9f5ca4c0a data\minecraft\tags\blocks\soul_speed_blocks.json
+e18b206358a4e05103b8dbc0dae80c092e207bc7 data\minecraft\tags\blocks\mineable\axe.json
+ed9a19194497e539d3896149544b31f4d0b46bdc data\minecraft\tags\blocks\pressure_plates.json
+e18b206358a4e05103b8dbc0dae80c092e207bc7 data\minecraft\tags\blocks\sword_efficient.json
+8a771d7b404ffd6e66fc5830e879803a9bea9c6c data\minecraft\tags\blocks\piglin_repellents.json

@@ -1,0 +1,13 @@
+{
+  "variants": {
+    "type=bottom": {
+      "model": "soul_stuff:block/polished_dark_soul_stone_slab"
+    },
+    "type=double": {
+      "model": "soul_stuff:block/polished_dark_soul_stone_slab_side"
+    },
+    "type=top": {
+      "model": "soul_stuff:block/polished_dark_soul_stone_slab_top"
+    }
+  }
+}

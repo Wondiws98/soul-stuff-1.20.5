@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/wall_inventory",
+  "textures": {
+    "wall": "soul_stuff:block/dark_soul_stone_bricks"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "soul_stuff:polished_dark_soul_stone"
+    }
+  ],
+  "result": {
+    "count": 1,
+    "id": "soul_stuff:polished_dark_soul_stone_button"
+  }
+}

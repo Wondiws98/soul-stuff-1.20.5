@@ -122,11 +122,15 @@ public class SoulStuffRecipeProvider extends FabricRecipeProvider {
         offerPressurePlateRecipe(exporter, SoulStuffBlocks.POLISHED_SOUL_STONE_PRESSURE_PLATE, SoulStuffBlocks.POLISHED_SOUL_STONE);
         offerPressurePlateRecipe(exporter, SoulStuffBlocks.POLISHED_DARK_SOUL_STONE_PRESSURE_PLATE, SoulStuffBlocks.POLISHED_DARK_SOUL_STONE);
             // BUTTONS
-        offerShapelessRecipe(exporter, SoulStuffBlocks.POLISHED_SOUL_STONE_BUTTON, SoulStuffBlocks.POLISHED_SOUL_STONE, "", 1);
-        offerShapelessRecipe(exporter, SoulStuffBlocks.POLISHED_DARK_SOUL_STONE_BUTTON, SoulStuffBlocks.POLISHED_DARK_SOUL_STONE, "", 1);
+        offerSingleInputRecipe(exporter, RecipeCategory.REDSTONE, SoulStuffBlocks.POLISHED_SOUL_STONE_BUTTON, SoulStuffBlocks.POLISHED_SOUL_STONE, 1);
+        offerSingleInputRecipe(exporter, RecipeCategory.REDSTONE, SoulStuffBlocks.POLISHED_DARK_SOUL_STONE_BUTTON, SoulStuffBlocks.POLISHED_DARK_SOUL_STONE, 1);
             // LIGHT
         ShapedRecipeJsonBuilder.create(building_block, SoulStuffBlocks.NICK_O_LANTERN, 1).pattern("P").pattern("T").input('P', Blocks.CARVED_PUMPKIN).input('T', Blocks.SOUL_TORCH).criterion(hasItem(Blocks.CARVED_PUMPKIN), conditionsFromItem(Blocks.CARVED_PUMPKIN)).criterion(hasItem(Blocks.SOUL_TORCH), conditionsFromItem(Blocks.SOUL_TORCH)).offerTo(exporter, new Identifier(getRecipeName(SoulStuffBlocks.NICK_O_LANTERN)));
         ShapedRecipeJsonBuilder.create(building_block, SoulStuffBlocks.SOULLIGHT, 1).pattern(" G ").pattern("GSG").pattern(" G ").input('G', Items.GLOWSTONE_DUST).input('S', ItemTags.SOUL_FIRE_BASE_BLOCKS).criterion(hasItem(Items.GLOWSTONE_DUST), conditionsFromItem(Items.GLOWSTONE_DUST)).criterion(hasItem(Blocks.SOUL_SAND), conditionsFromTag(ItemTags.SOUL_FIRE_BASE_BLOCKS)).offerTo(exporter, new Identifier(getRecipeName(SoulStuffBlocks.SOULLIGHT)));
+    }
+
+    public void offerSingleInputRecipe(RecipeExporter exporter, RecipeCategory category, ItemConvertible output, ItemConvertible input, int count) {
+        ShapedRecipeJsonBuilder.create(category, output, count).pattern("I").input('I', input).criterion(hasItem(input), conditionsFromItem(input)).offerTo(exporter, getRecipeName(output));
     }
 
     public void offer2x2Recipe(RecipeExporter exporter, RecipeCategory category, ItemConvertible output, ItemConvertible input, int count) {
